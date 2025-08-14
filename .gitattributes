@@ -1,0 +1,6 @@
+# Ignorar código nativo para la detección de lenguaje
+android/** linguist-vendored
+ios/** linguist-vendored
+
+# Forzar a que Dart se detecte
+*.dart linguist-detectable=true
